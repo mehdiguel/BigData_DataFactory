@@ -1,0 +1,13 @@
+{
+	"name": "BigDataAtlas",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "MongoDbAtlas",
+		"typeProperties": {
+			"connectionString": "mongodb+srv://1234:@cluster0.rdy3x.mongodb.net/test",
+			"database": "crime",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkJJR0RBVEFQUk9KRUNUXzA3ZDZhMWY5LWRlZTEtNDVkMi04ODE1LWQyN2U4M2QxN2Y1NyINCn0="
+		}
+	}
+}
